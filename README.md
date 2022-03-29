@@ -1,3 +1,21 @@
+# redux-test
+
+trying out Redux JS framework
+
+## why would i want to use redux?
+
+from [here](https://changelog.com/posts/when-and-when-not-to-reach-for-redux):
+
+> Now, it also happens that because Redux used the old-style React Context API from its beginning, using Redux in a React app also happened to somewhat accidentally solve another common problem, which is that many different parts of my app need to use the same state at the same time, and I would normally have to lift that state up maybe all the way to the root app component in order for many components to share the data. But if I do that, I would then have to prop-drill and pass that data as props through every level of the component tree, which is a royal pain.
+
+definitely have seen this before
+
+> - Caching state from a server
+> - UI state
+> - other complex data management on the client
+
+i can see the use for managing UI state
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
